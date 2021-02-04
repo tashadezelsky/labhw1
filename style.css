@@ -6,7 +6,7 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: -8rem;
+    margin-top: 1rem;
     height: auto;
 
 }
@@ -14,6 +14,11 @@ img {
 @font-face {
     font-family: jedi;
     src:url(jedi.ttf)
+}
+
+@font-face {
+    font-family: franklin;
+    src:url(fg.ttf);
 }
 
 .text {
@@ -24,4 +29,13 @@ img {
   line-height: 80%;
   font-stretch: expanded;
   margin-top: -8rem;
+}
+
+.link p {
+    text-align: center; 
+    color: antiquewhite; 
+    font-family: franklin;
+    font-size: 2rem;
+    color: #f8fd3d;
+    margin-top: -10rem;
 }
