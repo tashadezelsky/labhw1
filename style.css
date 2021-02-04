@@ -1,0 +1,27 @@
+body {
+    background-image: url("images/bg1.gif");
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -8rem;
+    height: auto;
+
+}
+
+@font-face {
+    font-family: jedi;
+    src:url(jedi.ttf)
+}
+
+.text {
+  text-align: center; 
+  color: antiquewhite; 
+  font-family: jedi;
+  font-size: 200px;
+  line-height: 80%;
+  font-stretch: expanded;
+  margin-top: -8rem;
+}
